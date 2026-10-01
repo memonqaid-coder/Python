@@ -1,5 +1,4 @@
-cont ='y'
-while cont=='y':
+for i in range(5):
     c1=int(input("Enter the a: "))
     c2=int(input("Enter the b: "))
     match(int(input("Enter your choice first: "))):
@@ -8,5 +7,5 @@ while cont=='y':
         case 3: print("Multiplication: ",c1*c2)
         case 4: print("Division: ",c1/c2)
         case _: print("Invalid choice")
-    cont = input("Do you want to continue (y/n): ")
+    i = i+1
   
