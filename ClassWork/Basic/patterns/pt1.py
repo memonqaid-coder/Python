@@ -53,3 +53,16 @@ for i in range(5):
     for j in range(i+1):
         print(i, end=" ")
     print()"""
+lines=5
+for j in range(lines):
+    for i in range((lines-1)-j):
+        print(" ", end="")
+    for i in range(j+1):
+        print("2 ", end="")
+    print()
+for j in range(1,lines):
+    for i in range(j):
+        print(" ", end="")
+    for i in range((lines-j)):
+        print("1 ", end="")
+    print()
